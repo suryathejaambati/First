@@ -1,0 +1,10 @@
+git status
+git add
+git commit
+git push origin master
+git remote -v
+git pull origin master
+git remote -v
+git remote
+git remote add origin " github url"
+
