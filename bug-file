@@ -37,6 +37,7 @@ git reset --soft HEAD~1
 git reset HEAD~1 (Mixed)
 git reset --hard HEAD~1
 git revert " commit id"
-
+git log --pretty=oneline
+git commit --amend -m "Change the commit msg"
 
 
