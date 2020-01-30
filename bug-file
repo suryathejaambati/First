@@ -1,3 +1,5 @@
+sudo yum install git
+git init
 git status
 git add
 git commit
@@ -7,4 +9,34 @@ git pull origin master
 git remote -v
 git remote
 git remote add origin " github url"
+git branch
+gut branch -l
+git branch -d "branch name"
+git branch -a " branch name"
+git checkout "branch name"
+git branch --list
+git branch "new branch name"
+git push origin "new branch name"
+git checkout "old branch name"
+git banch -l
+git merge "new branch name"
+fork
+git fetch
+git tag v0.1
+git tag -l
+git tag v0.2 "commit id"
+git tag -l
+git tag -d v0.1
+git push origin v0.1
+git push origin --tags
+git push origin :refs/tags/v0.1 
+git show v2.3
+GIT UNDOING:
+git checkout "filename" : Working Area
+git reset --soft HEAD~1
+git reset HEAD~1 (Mixed)
+git reset --hard HEAD~1
+git revert " commit id"
+
+
 
