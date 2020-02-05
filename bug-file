@@ -33,16 +33,21 @@ git push origin :refs/tags/v0.1
 git show v2.3
 GIT UNDOING:
 git checkout "filename" : Working Area
-git reset --soft HEAD~1
+git reset --soft HEAD~1 : Staging area
 git reset HEAD~1 (Mixed)
 git reset --hard HEAD~1
-git revert " commit id"
+git revert " commit id" : History Area
 git log --pretty=oneline
 git commit --amend -m "Change the commit msg"
 git merge --squash "branch name " : It won't provide any history of the data from the feature branch"
 git rebase "branch name" : It should provide commit history from the branch"
 git cherry-pic "commit id " : Take a latest commit msg id from feature and merge to monther branch( I mean provice the latest commit data only)
-
+git stash : This is for hold the data on working environmnet. Once execute won't commit the changes in index area
+git stash pop: to revert the our changes
+git commit --amend -m " msg " : This command for revert the latest commit msg
+git rebase -i HEAD~5  : We can modify the last 05 commit msgs using this command
+git rebase -i "CommitID"^ : Change the msg for particular commit id only
+.gitignore: This folder for store the extension file. once you update the any extention it won't push the changes to remote repository
 
 
 
