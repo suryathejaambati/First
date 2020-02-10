@@ -50,6 +50,17 @@ git rebase -i "CommitID"^ : Change the msg for particular commit id only
 .gitignore: This folder for store the extension file. once you update the any extention it won't push the changes to remote repository
 
 
+________________________________________________________________________________________________________________________________
+
+
+Jenkins
+
+1. Build Automation 
+ three types
+    Poll SCM
+    Build Periodically
+    WebHooks
+
 
 
 
