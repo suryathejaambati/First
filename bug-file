@@ -61,7 +61,9 @@ Jenkins
     Build Periodically
     WebHooks
 
-
+Poll SCM : After pushing the code it will wait particular time then job will be trigger automatically
+Build Periodically : If code is pushed or not job will be build on particular time 
+WebHooks: After pushing the code it won't wait anytime. it means job will be trigger automatically
 
 
 
